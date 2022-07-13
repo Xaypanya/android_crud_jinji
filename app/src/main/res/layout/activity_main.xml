@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_layout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="JINJI CRUD"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/notosans"
+        android:paddingVertical="15dp"
+        android:layout_marginTop="50sp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="ເພີ່ມຂໍ້ມູນ"
+            android:textColor="@color/white"
+            android:fontFamily="@font/notosans"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="@drawable/btn_save"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="ຂໍ້ມູນທັງໝົດ"
+            android:textColor="@color/white"
+            android:fontFamily="@font/notosans"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="@drawable/btn_save"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
